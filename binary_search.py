@@ -12,10 +12,11 @@ class BinarySearch:
                 head = center + 1
             else:
                 tail = center - 1
-        print("Not Found~!!")
+        print("The value: " +str(search_value)+" not found !!")
         return
 
 if __name__ == "__main__":
     test_data = [11, 13, 17, 19, 23, 29, 31]
     bn = BinarySearch()
     bn.binary_search(test_data, 17)
+    bn.binary_search(test_data, 18)
