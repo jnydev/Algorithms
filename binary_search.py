@@ -16,11 +16,11 @@ class BinarySearch:
         return
 
 if __name__ == "__main__":
-    i = 0
+    count = 0
     data_set = [0]
-    while i < 100:
-        i = i + 1
-        data_set.append(i)
+    while count < 100:
+        count = count + 1
+        data_set.append(count)
     bn = BinarySearch()
     bn.binary_search(data_set, 17)
     bn.binary_search(data_set, 101)
