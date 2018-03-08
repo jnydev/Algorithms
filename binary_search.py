@@ -16,7 +16,11 @@ class BinarySearch:
         return
 
 if __name__ == "__main__":
-    test_data = [11, 13, 17, 19, 23, 29, 31]
+    i = 0
+    data_set = [0]
+    while i < 100:
+        i = i + 1
+        data_set.append(i)
     bn = BinarySearch()
-    bn.binary_search(test_data, 17)
-    bn.binary_search(test_data, 18)
+    bn.binary_search(data_set, 17)
+    bn.binary_search(data_set, 101)
